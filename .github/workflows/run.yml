@@ -1,0 +1,23 @@
+name: Run House Price Script
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: pip install pandas scikit-learn openpyxl
+
+      - name: Run script
+        run: python "ML gia nha.py"
