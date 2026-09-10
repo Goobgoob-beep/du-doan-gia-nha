@@ -19,5 +19,14 @@ jobs:
       - name: Install dependencies
         run: pip install pandas scikit-learn openpyxl
 
-      - name: Run script
-        run: python "ML gia nha.py"
+      - name: Run script and save output
+        run: |
+          python "ML gia nha.py" > ket_qua.txt
+          echo "" >> ket_qua.txt
+          echo "Have yet learned linear algebra" >> ket_qua.txt
+
+      - name: Upload result as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ket-qua
+          path: ket_qua.txt
