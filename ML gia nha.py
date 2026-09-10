@@ -5,8 +5,8 @@ from sklearn.metrics import mean_absolute_error, r2_score
 
 df = pd.read_excel("Housing.xlsx")
 
-X = df.drop(columns=["price"])
-y = df["price"]
+X = df.drop(columns=["gia"])
+y = df["gia"]
 
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=42
