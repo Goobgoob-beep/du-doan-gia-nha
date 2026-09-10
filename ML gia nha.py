@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, r2_score
 
-df = pd.read_excel("Housing.xlsx")
+df = pd.read_excel("spreadsheet.xlsx")
 
 X = df.drop(columns=["gia"])
 y = df["gia"]
