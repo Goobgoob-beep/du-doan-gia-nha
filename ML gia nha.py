@@ -17,11 +17,11 @@ model.fit(X_train, y_train)
 
 y_pred = model.predict(X_test)
 
-r2 = r2_score(y_test, y_pred)
-mae = mean_absolute_error(y_test, y_pred)
+diem_r2 = r2_score(y_test, y_pred)
+sai_so_tb = mean_absolute_error(y_test, y_pred)
 
-print(f"R2 Score: {r2:.4f}")
-print(f"MAE: {mae:,.0f} VND")
+print(f"Diem R2: {diem_r2:.4f}")
+print(f"Sai so trung binh: {sai_so_tb:,.0f} VND")
 
 pd.set_option('display.float_format', lambda x: '%.0f' % x)
 
