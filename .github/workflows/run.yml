@@ -23,7 +23,6 @@ jobs:
         run: |
           python "ML gia nha.py" > ket_qua.txt
           echo "" >> ket_qua.txt
-          echo "Have yet learned linear algebra" >> ket_qua.txt
 
       - name: Upload result as artifact
         uses: actions/upload-artifact@v4
