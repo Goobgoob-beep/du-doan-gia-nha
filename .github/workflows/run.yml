@@ -1,4 +1,4 @@
-name: Run House Price Script
+name: Predict house price!
 
 on:
   push:
