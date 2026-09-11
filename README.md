@@ -4,12 +4,11 @@
 
 **Required module**
 
-``
+<code>
 pip install pandas scikit-learn
-``
+</code>  
 
 </div>
-
-How to run on GitHub
+How to run on GitHub:  
 ``Actions > Run House Price Script > Run workflow``  
 output can be downloaded in the Artifacts section
