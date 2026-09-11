@@ -4,9 +4,7 @@
 
 **Required module**
 
-<code>
-pip install pandas scikit-learn
-</code>  
+<code>pip install pandas scikit-learn</code>  
 
 </div>
 How to run on GitHub:  
