@@ -1,7 +1,12 @@
 # Dự đoán giá nhà dùng hồi quy tuyến tính (Linear Regression)
 
-required module
+<div style="border: 1px solid #ccc; padding: 10px;">
+
+**Required module**
+
 `pip install pandas scikit-learn`
+
+</div>
 
 How to run on GitHub
 ```Actions > Run House Price Script > Run workflow```  
