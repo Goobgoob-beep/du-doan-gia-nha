@@ -4,7 +4,8 @@
 
 **Required module**
 
-``pip install pandas scikit-learn
+``
+pip install pandas scikit-learn
 ``
 
 </div>
